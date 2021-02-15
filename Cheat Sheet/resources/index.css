@@ -1,0 +1,96 @@
+/* general style & layout */
+
+body {
+  font-family: monospace;
+  letter-spacing: 0.05em;
+  color: darkcyan;
+  background-color: azure;
+  font-size: 11pt;
+}
+
+header, main {
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* navigation */
+
+nav {
+  text-align: center;
+  margin: 30px auto;
+}
+
+ul {
+  margin: 10px 0px;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav a {
+  color: darkcyan;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* headings */
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 5px 0px;
+}
+
+h1 {
+  background-color: darkcyan;
+  color: azure;
+  text-align: center;
+  margin: 0 0 20px 0; /* space after line */
+}
+
+h2 {
+  background-color: lightcoral;
+  color: azure;
+  text-align: center;
+  margin: 30px 0;
+}
+
+h2.nav {
+  background-color: transparent;
+  color: darkcyan;
+  font-size: 11pt;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+h3 {
+  background-color: grey;
+  color: azure;
+  text-align: center;
+  margin: 30px auto 10px auto;
+}
+
+h4 {
+  text-align: center;
+  margin: 0 auto 10px auto;
+}
+
+/* content */
+
+figure {
+  box-sizing: border-box;
+  margin: 10px auto 10px auto;
+  padding: 20px;
+  border: 1px solid darkcyan;
+}
+
+figcaption {
+  margin: 5px 0px;
+}
+
+code {
+  display: block;
+  background-color: lightcyan;
+  margin: 20px 20px;
+  padding: 10px;
+}
